@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body#corpo {
+    text-align: center;
+    background-color: #1310d6a1;
+}
+
+header {
+   padding-top: 10px;
+   font: normal 15pt Arial;
+}
+
+div#interface {
+    width: 1100px;
+    height: 850px;
+    background-color: white;
+    margin: -30px auto 0px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    padding: 0px;
+}
+
+ul#imagens {
+    margin-left: 90px;
+    margin-top: -20px;
+    width: 1000px;
+    padding: 2px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#imagens li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background: url('bg.jpg');
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    transition: all 0.3s ease-in;
+}
+
+ul#imagens li:hover {
+    transform: scale(1.1);
+}
